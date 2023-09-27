@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <div>
-            <div className="flex justify-around w-full h-[50px] border border-white text-white text-xs capitalize">
+            <div className="flex justify-around w-full h-[50px] border border-white text-white text-xs uppercase">
                 <div className="flex items-center">
                     <img className="mr-2" src="checkMarkIcon.svg" />
                     <p>30-DAY SATISFACTION GUARANTEE</p>

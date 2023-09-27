@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <div className="w-full px-32 py-6 text-white">
         <div className="flex justify-between">
-          <p>Copyright (c) 2023 | Clarifionsupport@clarifion.com</p>
+          <p>Copyright (C) 2023 | clarifionsupport@clarifion.com</p>
           <div className="flex gap-4">
             <img
               src="lockIcon.svg
