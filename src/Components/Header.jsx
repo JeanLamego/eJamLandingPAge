@@ -1,25 +1,31 @@
 import React from 'react';
 
+
+
 const Header = () => {
+    const data = [
+        {
+            id: '1',
+            image: 'checkMarkIcon.svg',
+            text: '30-DAY SATISFACTION GUARANTEE',
+        },
+        {
+            id: '2',
+            image: 'truckIcon.svg',
+            text: 'Free delivery on orders over $40.00',
+        },
+        { id: '3', image: 'heartIcon.svg', text: '50.000+ HAPPY CUSTOMERS' },
+        { id: '4', image: 'moneyBackIcon.svg', text: 'moneyBackIcon.svg' },
+    ];
     return (
         <div>
-            <div className="flex justify-around w-full h-[50px] border border-white text-white text-xs uppercase">
-                <div className="flex items-center">
-                    <img className="mr-2" src="checkMarkIcon.svg" />
-                    <p>30-DAY SATISFACTION GUARANTEE</p>
-                </div>
-                <div className="flex items-center">
-                    <img className="mr-2" src="truckIcon.svg" />
-                    <p>Free delivery on orders over $40.00</p>
-                </div>
-                <div className="flex items-center">
-                    <img className="mr-2" src="heartIcon.svg" />
-                    <p>50.000+ HAPPY CUSTOMERS</p>
-                </div>
-                <div className="flex items-center">
-                    <img className="mr-2" src="moneyBackIcon.svg" />
-                    <p>100% Money Back Guarantee</p>
-                </div>
+            <div className="flex justify-around w-full sm:h-10lg:h-[50px] border border-white text-white text-xs uppercase">
+                {data.map(item => (
+                    <div key={item.id} className="flex items-center">
+                        <img className="mr-2" src={item.image} />
+                        <p>{item.text}</p>
+                    </div>
+                ))}
             </div>
 
             <div className="bg-white w-full h-24 flex justify-between items-center px-32 py-7">
