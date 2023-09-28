@@ -73,13 +73,15 @@ const Header = () => {
                     </Swiper>
                 </div>
             )}
-            <div className="bg-white w-full h-24 flex justify-between items-center px-32 py-7">
-                <img className="w-48 h-9" src="clarifionLogo.png" alt="" />
-                <div className="flex gap-8">
+            
+            <div className="bg-white flex justify-between w-full sm:h-14 lg:h-24 sm:py-5 sm:px-5 lg:px-32 lg:py-7">
+                <img className="sm:w-24 sm:h-5 lg:w-48 lg:h-9" src="clarifionLogo.png" alt="" />
+                <div className="flex sm:gap-4 lg:gap-8">
                     <img src="mcafeeLogo.svg" alt="" />
                     <img src="nortonLogo.svg" alt="" />
                 </div>
             </div>
+            
         </div>
     );
 };
