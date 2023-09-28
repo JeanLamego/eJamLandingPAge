@@ -3,10 +3,10 @@ import React from 'react';
 const Banner = () => {
     return (
         <div>
-            <div className='px-32'>
-                <div className='flex flex-col  items-center justify-center'>
-                    <h2 className='font-normal text-5xl'>Wait ! your order in progress.</h2>
-                    <h1 className='text-2xl text-[#4D5254]'>Lorem ipsum dolor sit amet, consectetur adipiscing </h1>
+            <div className='sm:px-5 sm:pt-12 lg:px-32'>
+                <div className='flex flex-col sm:text-center  capitalize sm:gap-6 items-center justify-center'>
+                    <h2 className='font-normal sm:text-3xl lg:text-5xl'>Wait ! your order in progress.</h2>
+                    <h1 className='sm:text-base lg:text-2xl text-[#4D5254]'>Lorem ipsum dolor sit amet, consectetur adipiscing </h1>
                 </div>
                 <div className='flex  pb-10 pt-14 justify-between'>
                     <div className='flex items-center gap-5 text-xl'>
