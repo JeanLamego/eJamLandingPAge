@@ -125,7 +125,26 @@ const MainBanner = () => {
                     </button>
 
                     <div className="w-full pt-4">
-                        <div className="text-xs border b#CFCFCF] rounded text-[#4D5254] flex flex-row items-center justify-center gap-x-4 py-2 ">
+
+                    <div className="lg:hidden text-xs border #CFCFCF] rounded text-[#4D5254] ">
+                            <div className='flex flex-row items-center justify-center mx-2 gap-x-4 pb-3 pt-2 border-b-2'>
+                            <p>Free Shipping</p>
+                            <span> | </span>
+                            <div className=" flex flex-row gap-2 items-center">
+                                <img
+                                    className=""
+                                    src="lockIconGrey.svg"
+                                    alt=""
+                                />
+                                <p>Secure 256-bit SSL encryption</p>
+                            </div>
+                            </div>
+                            <div className='flex justify-center pt-3 pb-2'>
+                                <img src="cards.svg" alt="" />
+                            </div>
+                        </div>
+                        
+                        <div className="sm:hidden text-xs border b#CFCFCF] rounded text-[#4D5254] lg:flex flex-row items-center justify-center gap-x-4 py-2 ">
                             <p>Free Shipping</p>
                             <span> | </span>
                             <div className=" flex flex-row gap-2 items-center">
@@ -142,17 +161,17 @@ const MainBanner = () => {
                             </div>
                         </div>
 
-                        <div className="w-full flex justify-center items-center text-lg text-[#F82C2C] uppercase underline pt-5 font-medium cursor-pointer">
+                        <div className="w-full flex justify-center items-center text-xs lg:text-lg text-[#F82C2C] uppercase underline sm:pt-3 lg:pt-5 font-medium cursor-pointer">
                             <h2>No thanks, I don’t want this.</h2>
                         </div>
                     </div>
                 </div>
 
-                <div className="flex flex-row gap-x-4 ">
-                    <div className="w-1/2">
+                <div className="flex flex-row gap-x-4 sm:pb-12  sm:pt-6 lg:py-0">
+                    <div className="sm:w-3/5 lg:w-1/2">
                         <img src="emblem.svg" alt="" />
                     </div>
-                    <p className="mr-5 leading-none capsize">
+                    <p className=" sm:text-[0.76rem] lg:text-base lg:mr-5 leading-snug capsize">
                         If you are not completely thrilled with your Clarifion -
                         We have a{' '}
                         <span className="font-bold text-[#4D5254]">
