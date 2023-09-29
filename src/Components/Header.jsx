@@ -25,7 +25,7 @@ const Header = () => {
     return (
         <div>
             {window.innerWidth > 768 ? (
-                <div className="flex justify-around w-full sm:h-10lg:h-[50px] text-white text-xs uppercase">
+                <div className="flex justify-around w-full sm:h-10 lg:h-[50px] text-white text-xs uppercase">
                     {data.map(item => (
                         <div key={item.id} className="flex items-center">
                             <img className="mr-2" src={item.image} />
