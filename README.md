@@ -27,7 +27,7 @@ Built with React (JavaScript), responsive screens that can be viewed on desktops
 
 ## Images
 
-<h3>Figma: [Figma Link](https://www.figma.com/file/gHf56mhtFr0lXky0poofoQ/ejam---Clarifion-Upsell-%5B-Client-V-%5D-(Copy)?mode=dev)</h3>
+<h3>Figma:(https://www.figma.com/file/gHf56mhtFr0lXky0poofoQ/ejam---Clarifion-Upsell-%5B-Client-V-%5D-(Copy)?mode=dev)</h3>
 
 ## Technologies
 
