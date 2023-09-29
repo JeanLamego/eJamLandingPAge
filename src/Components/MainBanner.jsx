@@ -119,7 +119,7 @@ const MainBanner = () => {
                 </div>
 
                 <div className="w-full ">
-                    <button className="sm:text-xs lg:text-sm xl:text-base  font-bold outline-none w-full cursor-pointer bg-[#59AE43] text-white justify-center flex flex-row items-center uppercase px-16 py-4 rounded-full gap-x-2">
+                    <button className="sm:text-xs lg:text-sm xl:text-base  font-bold outline-none w-full cursor-pointer bg-[#59AE43] transition duration-300 ease-in-out hover:bg-[#58ae43c2] text-white justify-center flex flex-row items-center uppercase px-16 py-4 rounded-full gap-x-2">
                         yes - claim my discount
                         <img src="rightArrowIcon.svg" alt="" />
                     </button>
@@ -160,7 +160,7 @@ const MainBanner = () => {
                             </div>
                         </div>
 
-                        <div className="w-full flex justify-center items-center text-xs lg:text-[.9rem] xl:text-lg text-[#F82C2C] uppercase underline sm:pt-3 lg:pt-5 font-medium cursor-pointer">
+                        <div className="w-full flex justify-center items-center text-xs lg:text-[.9rem] xl:text-lg text-[#F82C2C] transition duration-300 ease-in-out hover:text-[#f82c2cc0] uppercase underline sm:pt-3 lg:pt-5 font-medium cursor-pointer">
                             <h2>No thanks, I don’t want this.</h2>
                         </div>
                     </div>
