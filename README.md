@@ -27,7 +27,16 @@ Built with React (JavaScript), responsive screens that can be viewed on desktops
 
 ## Images
 
-<h3>Figma:(https://www.figma.com/file/gHf56mhtFr0lXky0poofoQ/ejam---Clarifion-Upsell-%5B-Client-V-%5D-(Copy)?mode=dev)</h3>
+  <h3> :camera: Desktop and Mobile Pages</h3>
+
+<div align="center">
+<img  src = "https://github.com/JeanLamego/eJamLandingPage/assets/112256751/84c82514-83ac-4aca-96f8-495b461c0053" width = "300px"/>
+
+<img  src = "https://github.com/JeanLamego/eJamLandingPage/assets/112256751/f5799bc8-2e90-4a20-a748-23d2da0bd0c5" width = "146.6px"/>
+</div>
+
+
+- Figma:(https://www.figma.com/file/gHf56mhtFr0lXky0poofoQ/ejam---Clarifion-Upsell-%5B-Client-V-%5D-(Copy)?mode=dev)
 
 ## Technologies
 
@@ -49,7 +58,7 @@ Vercel: https://ejam-upsell-product-page.vercel.app/
 
 - [x] Code editor of your choice (recommended VS Code)
 - [x] Git
-- [ ] React
+- [x] React
   Note: The first step to use React is to install it, and for that, Node.js needs to be installed. If you don't have it yet, visit the Node.js website and download the latest version for your operating system.
   
   With Node.js installed, we have the npm command available, necessary to install React. At this point, open your operating system's terminal and enter the following command:
@@ -57,7 +66,7 @@ Vercel: https://ejam-upsell-product-page.vercel.app/
   Note: For complete instructions, visit the website: "[React Installation](https://reactjs.org/learn/installation)"
 
 - [x] Clone the GitHub repository, in the terminal type:
-  - [x] git clone https://github.com/JennyLamego2022/dashbord_optima.git
+  - [x] git clone https://github.com/JeanLamego/eJamLandingPage.git
   - [x] enter the dashbord_optimatech folder and type in the terminal:
   - [x] code .
   - [x] npm install
