@@ -46,9 +46,9 @@ const Banner = () => {
                             src="tipCircleIcon.svg"
                             alt=""
                         />
-                        <p className=' xl:flex xl:flex-row'>
-                            <span className="sm:hidden xl:flex">Step 1 : </span>Cart
-                            Review
+                        <p className=" lg:flex lg:flex-row">
+                            <span className="sm:hidden lg:flex">Step 1 : </span>
+                            Cart Review
                         </p>
                     </div>
                     <div className="flex sm:flex-col items-center sm:gap-2 sm:py-6  xl:gap-5 sm:text-xs xl:text-xl">
@@ -57,8 +57,9 @@ const Banner = () => {
                             src="tipCircleIcon.svg"
                             alt=""
                         />
-                        <p className=' xl:flex xl:flex-row'>
-                            <span className="sm:hidden xl:flex">Step 2 : </span>Checkout
+                        <p className=" lg:flex lg:flex-row">
+                            <span className="sm:hidden lg:flex">Step 2 : </span>
+                            Checkout
                         </p>
                     </div>
                     <div className="flex sm:flex-col items-center sm:gap-2 sm:py-6  xl:gap-5 sm:text-xs xl:text-xl font-bold">
@@ -67,9 +68,9 @@ const Banner = () => {
                             src="step3.svg"
                             alt=""
                         />
-                        <p className=' xl:flex xl:flex-row'>
-                            <span className="sm:hidden xl:flex">Step 3 : </span>Special
-                            Offer
+                        <p className=" lg:flex lg:flex-row">
+                            <span className="sm:hidden lg:flex">Step 3 : </span>
+                            Special Offer
                         </p>
                     </div>
                     <div className="flex sm:flex-col items-center sm:gap-2 sm:py-6  xl:gap-5 sm:text-xs xl:text-xl">
@@ -78,8 +79,8 @@ const Banner = () => {
                             src="step4.svg"
                             alt=""
                         />
-                        <p className=' xl:flex xl:flex-row'>
-                            <span className="sm:hidden xl:flex">Step 4 : </span>
+                        <p className=" lg:flex lg:flex-row">
+                            <span className="sm:hidden lg:flex">Step 4 : </span>
                             Confirmation
                         </p>
                     </div>

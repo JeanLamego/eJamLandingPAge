@@ -7,9 +7,9 @@ import MainBanner from './Components/MainBanner';
 function App() {
     return (
         <div>
-            <div className="sm:w-full lg:w-full lg:h-[1379px] bg-[#252F3D]">
+            <div className="sm:w-full lg:w-full xl:h-[1379px] bg-[#252F3D]">
                 <Header />
-                <div className="lg:px-32 bg-white">
+                <div className=" lg:px-16 xl:px-32 bg-white">
                     <Banner />
                     <MainBanner/>
                 </div>

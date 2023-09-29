@@ -2,7 +2,7 @@ import React from 'react';
 
 const MainBanner = () => {
     return (
-        <div className=" p-5 lg:p-10 flex sm:flex-col lg:flex-row w-full lg:gap-10">
+        <div className=" p-5 xl:p-10 flex sm:flex-col lg:flex-row w-full lg:gap-10">
             <div className="w-full flex flex-col ">
                 <h2 className="lg:hidden text-2xl text-center font-normal capitalize leading-none capsize sm:pb-6">
                     <span className="text-[#2C7EF8]">ONE TIME ONLY</span>{' '}
@@ -17,27 +17,27 @@ const MainBanner = () => {
                 </div>
             </div>
 
-            <div className="w-full lg:flex lg:flex-col gap-y-8 ">
-                <h2 className="sm:hidden lg:block text-[2rem] font-normal capitalize leading-none capsize">
+            <div className="w-full lg:flex lg:flex-col lg:gap-y-4 xl:gap-y-8 ">
+                <h2 className="sm:hidden lg:block lg:text-2xl xl:text-[2rem] font-normal capitalize leading-none capsize">
                     <span className="text-[#2C7EF8]">ONE TIME ONLY</span>{' '}
                     special price for 6 extra Clarifion for only
                     <span className="text-[#2C7EF8]"> $14 each</span> ($84.00
                     total!)
                 </h2>
 
-                <div className="w-full flex flex-row sm:sm:text-xs lg:text-base justify-end gap-x-6 ">
-                    <div className="flex sm:w-20 lg:w-[134px]">
+                <div className="w-full flex flex-row sm:sm:text-xs lg:text-sm xl:text-base justify-end gap-x-6 ">
+                    <div className="flex sm:w-20 lg:w-[100px] xl:w-[134px]">
                         <img className="" src="ionizerImage.svg" alt="" />
                     </div>
 
-                    <div className="flex-1 flex flex-col sm:gap-y-3 lg:gap-y-1.5">
+                    <div className="flex-1 flex flex-col sm:gap-y-3 lg:gap-y-0.5 xl:gap-y-1.5">
                         <div className="flex flex-row justify-between">
-                            <p className="sm:text-sm lg:text-xl">
+                            <p className="sm:text-sm lg:text-lg xl:text-xl">
                                 Clarifion Air Ionizer
                             </p>
                             <div className="flex font-semibold gap-x-2 items-center">
                                 <p className="text-[#969696]">$180</p>
-                                <h2 className="text-[#2C7EF8] sm:text-sm lg:text-xl">
+                                <h2 className="text-[#2C7EF8] sm:text-sm lg:text-lg xl:text-xl">
                                     $84
                                 </h2>
                             </div>
@@ -119,7 +119,7 @@ const MainBanner = () => {
                 </div>
 
                 <div className="w-full ">
-                    <button className="sm:text-xs lg:text-base  font-bold outline-none w-full cursor-pointer bg-[#59AE43] text-white justify-center flex flex-row items-center uppercase px-16 py-4 rounded-full gap-x-2 text-xl">
+                    <button className="sm:text-xs lg:text-sm xl:text-base  font-bold outline-none w-full cursor-pointer bg-[#59AE43] text-white justify-center flex flex-row items-center uppercase px-16 py-4 rounded-full gap-x-2">
                         yes - claim my discount
                         <img src="rightArrowIcon.svg" alt="" />
                     </button>
@@ -160,7 +160,7 @@ const MainBanner = () => {
                             </div>
                         </div>
 
-                        <div className="w-full flex justify-center items-center text-xs lg:text-lg text-[#F82C2C] uppercase underline sm:pt-3 lg:pt-5 font-medium cursor-pointer">
+                        <div className="w-full flex justify-center items-center text-xs lg:text-[.9rem] xl:text-lg text-[#F82C2C] uppercase underline sm:pt-3 lg:pt-5 font-medium cursor-pointer">
                             <h2>No thanks, I don’t want this.</h2>
                         </div>
                     </div>
@@ -170,7 +170,7 @@ const MainBanner = () => {
                     <div className="sm:w-3/5 lg:w-1/2">
                         <img src="emblem.svg" alt="" />
                     </div>
-                    <p className="text-[#4D5254] sm:text-[0.76rem] lg:text-base lg:mr-5 leading-snug capsize">
+                    <p className="text-[#4D5254] sm:text-[0.76rem] lg:text-xs xl:text-base lg:mr-5 leading-snug capsize">
                         If you are not completely thrilled with your Clarifion -
                         We have a{' '}
                         <span className="font-bold text-[#4D5254]">
