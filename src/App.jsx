@@ -1,15 +1,17 @@
 import Banner from './Components/Banner';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
+import MainBanner from './Components/MainBanner';
 
 
 function App() {
     return (
         <div>
-            <div className="sm:w-full lg:w-[1500px] lg:h-[1379px] bg-[#252F3D]">
+            <div className="sm:w-full lg:w-full lg:h-[1379px] bg-[#252F3D]">
                 <Header />
-                <div className="bg-white">
+                <div className="lg:px-32 bg-white">
                     <Banner />
+                    <MainBanner/>
                 </div>
                 <Footer />
             </div>
