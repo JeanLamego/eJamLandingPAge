@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@capsizecss/core": "^3.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "swiper": "^10.3.0"
+    "swiper": "^10.3.0",
+    "tailwindcss-leading-trim": "^1.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
@@ -26,6 +28,7 @@
     "postcss": "^8.4.30",
     "prettier": "^3.0.3",
     "tailwindcss": "^3.3.3",
+    "tailwindcss-capsize": "^3.0.4",
     "vite": "^4.4.5"
   }
 }

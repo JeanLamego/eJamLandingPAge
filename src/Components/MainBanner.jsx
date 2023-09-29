@@ -2,7 +2,7 @@ import React from 'react';
 
 const MainBanner = () => {
     return (
-        <div className="bg-stone-400 p-10 flex flex-row w-full gap-10">
+        <div className=" p-10 flex flex-row w-full gap-10">
             <div className="w-full flex flex-col">
                 <img className="pb-6" src="mainBanner.svg" alt="" />
                 <div>
@@ -10,8 +10,8 @@ const MainBanner = () => {
                 </div>
             </div>
 
-            <div className="w-full bg-green-500 flex flex-col gap-y-8">
-                <h2 className="text-[2rem] font-normal capitalize">
+            <div className="w-full  flex flex-col gap-y-8">
+                <h2 className="text-[2rem] font-normal capitalize leading-none capsize">
                     <span className="text-[#2C7EF8]">ONE TIME ONLY</span>{' '}
                     special price for 6 extra Clarifion for only
                     <span className="text-[#2C7EF8]"> $14 each</span> ($84.00
@@ -25,7 +25,7 @@ const MainBanner = () => {
 
                     <div className="flex-1 flex flex-col gap-y-1.5">
                         <div className="flex flex-row justify-between">
-                            <p className="text-xl">Clarifion Air Ionizer</p>
+                            <p className="text-xl ">Clarifion Air Ionizer</p>
                             <div className="flex font-semibold gap-x-2 items-center">
                                 <p className="text-[#969696]">$180</p>
                                 <h2 className="text-[#2C7EF8] text-xl">$84</h2>
@@ -47,9 +47,9 @@ const MainBanner = () => {
                 </div>
 
                 <div className="w-full flex flex-col gap-y-4 text-base">
-                    <div className="flex flex-row gap-x-3  items-center">
+                    <div className="flex flex-row gap-x-3  items-center ">
                         <img src="tickIcon.svg" alt="" />
-                        <p>
+                        <p className='leading-tight capsize'>
                             Negative Ion Technology may{' '}
                             <span className="font-bold text-[#4D5254]">
                                 help with allergens
@@ -58,7 +58,7 @@ const MainBanner = () => {
                     </div>
                     <div className="flex flex-row gap-x-3">
                         <img src="tickIcon.svg" alt="" />
-                        <p>
+                        <p className='leading-none capsize'>
                             Designed for{' '}
                             <span className="font-bold text-[#4D5254]">
                                 air rejuvenation
@@ -67,7 +67,7 @@ const MainBanner = () => {
                     </div>
                     <div className="flex flex-row gap-x-3">
                         <img src="tickIcon.svg" alt="" />
-                        <p>
+                        <p className='leading-none capsize'>
                             <span className="font-bold text-[#4D5254]">
                                 Perfect for every room{' '}
                             </span>
@@ -77,7 +77,7 @@ const MainBanner = () => {
                 </div>
 
                 <div className="bg-[#EDF3FD] rounded-lg">
-                    <div className="flex flex-row items-center gap-x-4 px-4 py-3">
+                    <div className="flex flex-row items-center gap-x-4 px-4 py-3 ">
                         <img src="percent.svg" alt="" />
                         <p>
                             Save <span className="text-[#2C7EF8]">53%</span> and
@@ -92,14 +92,14 @@ const MainBanner = () => {
                 </div>
 
                 <div className="w-full">
-                    <button className="w-full cursor-pointer bg-[#59AE43] text-white justify-center flex flex-row items-center uppercase px-16 py-4 rounded-full gap-x-2 text-xl">
+                    <button className=" outline-none w-full cursor-pointer bg-[#59AE43] text-white justify-center flex flex-row items-center uppercase px-16 py-4 rounded-full gap-x-2 text-xl">
                         yes - claim my discount{' '}
                         <img src="rightArrowIcon.svg" alt="" />
                     </button>
 
                     <div className="w-full pt-4">
-                        <div className="text-xs border border-[#CFCFCF] rounded text-[#4D5254] flex flex-row items-center justify-center gap-x-4 py-2">
-                            <p>Free Shipping</p>
+                        <div className="text-xs border border-[#CFCFCF] rounded text-[#4D5254] flex flex-row items-center justify-center gap-x-4 py-2 ">
+                            <p >Free Shipping</p>
                             <span> | </span>
                             <div className=" flex flex-row gap-2 items-center">
                                 <img
@@ -125,7 +125,7 @@ const MainBanner = () => {
                     <div className='w-1/2'>
                         <img src="emblem.svg" alt="" />
                     </div>
-                    <p className='mr-5'>If you are not completely thrilled with your Clarifion - We have a <span className="font-bold text-[#4D5254]">30 day satisfaction guarantee.</span> Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
+                    <p className='mr-5 leading-none capsize'>If you are not completely thrilled with your Clarifion - We have a <span className="font-bold text-[#4D5254]">30 day satisfaction guarantee.</span> Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
                 </div>
             </div>
         </div>

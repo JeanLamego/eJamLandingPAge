@@ -2,6 +2,20 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+    
+    sans:['Manrope', "sans-serif"]
+  },
+  fontMetrics: {
+            sans: {
+              capHeight: 1440,
+              ascent: 2132,
+              descent: -600,
+              lineGap: 24,
+              unitsPerEm: 2000,
+            }
+          },
+          
     screens: {
       sm: "359px",
       inter: "540px",
@@ -10,6 +24,7 @@ export default {
       xl: "1440px",
     },
     extend: {},
+  
   },
-  plugins: [],
-};
+  plugins: [require('tailwindcss-capsize')],
+}
