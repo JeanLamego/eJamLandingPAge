@@ -26,11 +26,11 @@ const MainBanner = () => {
                 </h2>
 
                 <div className="w-full flex flex-row sm:sm:text-xs lg:text-base justify-end gap-x-6 ">
-                    <div className="flex">
+                    <div className="flex sm:w-20 lg:w-[134px]">
                         <img className="" src="ionizerImage.svg" alt="" />
                     </div>
 
-                    <div className="flex-1 flex flex-col gap-y-1.5">
+                    <div className="flex-1 flex flex-col sm:gap-y-3 lg:gap-y-1.5">
                         <div className="flex flex-row justify-between">
                             <p className="sm:text-sm lg:text-xl">
                                 Clarifion Air Ionizer
@@ -125,28 +125,27 @@ const MainBanner = () => {
                     </button>
 
                     <div className="w-full pt-4">
-
-                    <div className="lg:hidden text-xs border #CFCFCF] rounded text-[#4D5254] ">
-                            <div className='flex flex-row items-center justify-center mx-2 gap-x-4 pb-3 pt-2 border-b-2'>
-                            <p>Free Shipping</p>
-                            <span> | </span>
-                            <div className=" flex flex-row gap-2 items-center">
-                                <img
-                                    className=""
-                                    src="lockIconGrey.svg"
-                                    alt=""
-                                />
-                                <p>Secure 256-bit SSL encryption</p>
+                        <div className="lg:hidden text-xs border #CFCFCF] rounded text-[#4D5254] ">
+                            <div className="flex flex-row items-center justify-center mx-2 gap-x-4 pb-3 pt-2 border-b-2">
+                                <p>Free Shipping</p>
+                                <span> | </span>
+                                <div className=" flex flex-row gap-2 items-center">
+                                    <img
+                                        className=""
+                                        src="lockIconGrey.svg"
+                                        alt=""
+                                    />
+                                    <p>Secure 256-bit SSL encryption</p>
+                                </div>
                             </div>
-                            </div>
-                            <div className='flex justify-center pt-3 pb-2'>
+                            <div className="flex justify-center pt-3 pb-2">
                                 <img src="cards.svg" alt="" />
                             </div>
                         </div>
-                        
+
                         <div className="sm:hidden text-xs border b#CFCFCF] rounded text-[#4D5254] lg:flex flex-row items-center justify-center gap-x-4 py-2 ">
                             <p>Free Shipping</p>
-                            <span> | </span>
+                            <span className="text-[#CFCFCF]"> | </span>
                             <div className=" flex flex-row gap-2 items-center">
                                 <img
                                     className=""
@@ -167,11 +166,11 @@ const MainBanner = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row gap-x-4 sm:pb-12  sm:pt-6 lg:py-0">
+                <div className="flex flex-row gap-x-4 sm:pb-7 sm:pt-6 lg:py-0">
                     <div className="sm:w-3/5 lg:w-1/2">
                         <img src="emblem.svg" alt="" />
                     </div>
-                    <p className=" sm:text-[0.76rem] lg:text-base lg:mr-5 leading-snug capsize">
+                    <p className="text-[#4D5254] sm:text-[0.76rem] lg:text-base lg:mr-5 leading-snug capsize">
                         If you are not completely thrilled with your Clarifion -
                         We have a{' '}
                         <span className="font-bold text-[#4D5254]">
