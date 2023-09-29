@@ -17,7 +17,7 @@ const MainBanner = () => {
                 </div>
             </div>
 
-            <div className="w-full lg:flex lg:flex-col lg:gap-y-8 xl:gap-y-8 ">
+            <div className="w-full lg:flex lg:flex-col lg:gap-y-4 xl:gap-y-8 ">
                 <h2 className="sm:hidden lg:block lg:text-2xl xl:text-[2rem] font-normal capitalize leading-none capsize">
                     <span className="text-[#2C7EF8]">ONE TIME ONLY</span>{' '}
                     special price for 6 extra Clarifion for only
