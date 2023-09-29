@@ -1,32 +1,6 @@
 import React from 'react';
 
 const Banner = () => {
-    // const step =[
-    //     {
-    //         id:'1',
-    //         image: 'tipCircleIcon.svg',
-    //         span: 'Step 1 : ',
-    //         text: 'Cart Review',
-    //     },
-    //     {
-    //         id:'2',
-    //         image: 'tipCircleIcon.svg',
-    //         span: 'Step 2 : ',
-    //         text: 'Checkout',
-    //     },
-    //     {
-    //         id:'3',
-    //         image: 'step3.svg',
-    //         span: 'Step 3 : ',
-    //         text: 'Special Offer',
-    //     },
-    //     {
-    //         id:'4',
-    //         image: 'step4.svg',
-    //         span: 'Step 4 : ',
-    //         text: 'Confirmation',
-    //     },
-    // ]
     return (
         <div>
             <div className="sm:px-5 sm:pt-12 xl:px-32">
@@ -44,7 +18,7 @@ const Banner = () => {
                         <img
                             className="sm:w-5  xl:w-10"
                             src="tipCircleIcon.svg"
-                            alt=""
+                            alt="Cart Review Icon"
                         />
                         <p className=" lg:flex lg:flex-row">
                             <span className="sm:hidden lg:flex">Step 1 : </span>
@@ -55,7 +29,7 @@ const Banner = () => {
                         <img
                             className="sm:w-5  xl:w-10"
                             src="tipCircleIcon.svg"
-                            alt=""
+                            alt="Checkout Icon"
                         />
                         <p className=" lg:flex lg:flex-row">
                             <span className="sm:hidden lg:flex">Step 2 : </span>
@@ -66,7 +40,7 @@ const Banner = () => {
                         <img
                             className="sm:w-5  xl:w-10"
                             src="step3.svg"
-                            alt=""
+                            alt="Special Offer Icon"
                         />
                         <p className=" lg:flex lg:flex-row">
                             <span className="sm:hidden lg:flex">Step 3 : </span>
@@ -77,7 +51,7 @@ const Banner = () => {
                         <img
                             className="sm:w-5  xl:w-10"
                             src="step4.svg"
-                            alt=""
+                            alt="Confirmation Icon"
                         />
                         <p className=" lg:flex lg:flex-row">
                             <span className="sm:hidden lg:flex">Step 4 : </span>

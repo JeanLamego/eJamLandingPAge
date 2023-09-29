@@ -4,23 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
     --swiper-navigation-size: 20px;
 }
 
 * {
     font-family: 'Manrope', sans-serif;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    display: none;
     
 }
-
-
-
-
-.swiper-button-prev:after, .swiper-button-next:after {
-    display: none;
-    /* color: white;
-    width: 30px;
-    height: 30px;
-    font-size: 20px; */
-}
-  

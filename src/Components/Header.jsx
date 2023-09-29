@@ -2,22 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
 
-import {data} from '../json/headerData'
+import { data } from '../json/headerData';
 
 const Header = () => {
-    
-
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
     useEffect(() => {
-        
         const handleResize = () => {
             setWindowWidth(window.innerWidth);
         };
 
         window.addEventListener('resize', handleResize);
 
-        
         return () => {
             window.removeEventListener('resize', handleResize);
         };
@@ -51,7 +47,7 @@ const Header = () => {
                                     <div className="swiper-button-prev">
                                         <img
                                             src="leftArrow.svg"
-                                            alt="previous arrow"
+                                            alt="previous arrow icon"
                                         />
                                     </div>
                                     <div className="w-full sm:h-10 flex justify-center items-center text-white text-xs uppercase">
@@ -64,7 +60,7 @@ const Header = () => {
                                     <div className="swiper-button-next">
                                         <img
                                             src="rightArrow.svg"
-                                            alt="next arrow"
+                                            alt="next arrow icon"
                                         />
                                     </div>
                                 </SwiperSlide>
@@ -73,15 +69,18 @@ const Header = () => {
                     </Swiper>
                 </div>
             )}
-            
+
             <div className="bg-white flex justify-between w-full sm:h-14 lg:h-24 sm:py-5 sm:px-5 lg:px-32 lg:py-7">
-                <img className="sm:w-24 sm:h-5 lg:w-48 lg:h-9" src="clarifionLogo.png" alt="" />
+                <img
+                    className="sm:w-24 sm:h-5 lg:w-48 lg:h-9"
+                    src="clarifionLogo.png"
+                    alt=""
+                />
                 <div className="flex sm:gap-4 lg:gap-8">
-                    <img src="mcafeeLogo.svg" alt="" />
-                    <img src="nortonLogo.svg" alt="" />
+                    <img src="mcafeeLogo.svg" alt="mcafee logo" />
+                    <img src="nortonLogo.svg" alt="norton logo" />
                 </div>
             </div>
-            
         </div>
     );
 };

@@ -11,9 +11,13 @@ const MainBanner = () => {
                     total!)
                 </h2>
 
-                <img className="sm:pb-6" src="mainBanner.svg" alt="" />
+                <img
+                    className="sm:pb-6"
+                    src="mainBanner.svg"
+                    alt="Main Banner"
+                />
                 <div className="sm:hidden lg:block">
-                    <img src="customerReview.svg" alt="" />
+                    <img src="customerReview.svg" alt="Customer Review" />
                 </div>
             </div>
 
@@ -27,7 +31,11 @@ const MainBanner = () => {
 
                 <div className="w-full flex flex-row sm:sm:text-xs lg:text-sm xl:text-base justify-end gap-x-6 ">
                     <div className="flex sm:w-20 lg:w-[100px] xl:w-[134px]">
-                        <img className="" src="ionizerImage.svg" alt="" />
+                        <img
+                            className=""
+                            src="ionizerImage.svg"
+                            alt="ionizer Image"
+                        />
                     </div>
 
                     <div className="flex-1 flex flex-col sm:gap-y-3 lg:gap-y-0.5 xl:gap-y-1.5">
@@ -43,10 +51,10 @@ const MainBanner = () => {
                             </div>
                         </div>
 
-                        <img className=" w-24" src="stars.svg" alt="" />
+                        <img className=" w-24" src="stars.svg" alt="5 stars" />
 
                         <div className="flex gap-x-4">
-                            <img src="dot.svg" alt="" />
+                            <img src="dot.svg" alt="dot icon" />
                             <p>12 left in stock</p>
                         </div>
                         <p className="text- sm:hidden lg:flex">
@@ -66,7 +74,7 @@ const MainBanner = () => {
                         <img
                             className="sm:w-4 lg:w-auto"
                             src="tickIcon.svg"
-                            alt=""
+                            alt="tick icon"
                         />
                         <p className="leading-tight capsize">
                             Negative Ion Technology may{' '}
@@ -79,7 +87,7 @@ const MainBanner = () => {
                         <img
                             className="sm:w-4 lg:w-auto"
                             src="tickIcon.svg"
-                            alt=""
+                            alt="tick icon"
                         />
                         <p className="leading-none capsize">
                             Designed for{' '}
@@ -92,7 +100,7 @@ const MainBanner = () => {
                         <img
                             className="sm:w-4 lg:w-auto"
                             src="tickIcon.svg"
-                            alt=""
+                            alt="tick icon"
                         />
                         <p className="leading-none capsize">
                             <span className="font-bold text-[#4D5254]">
@@ -121,7 +129,7 @@ const MainBanner = () => {
                 <div className="w-full ">
                     <button className="sm:text-xs lg:text-sm xl:text-base  font-bold outline-none w-full cursor-pointer bg-[#59AE43] transition duration-300 ease-in-out hover:bg-[#58ae43c2] text-white justify-center flex flex-row items-center uppercase px-16 py-4 rounded-full gap-x-2">
                         yes - claim my discount
-                        <img src="rightArrowIcon.svg" alt="" />
+                        <img src="rightArrowIcon.svg" alt="right Arrow Icon" />
                     </button>
 
                     <div className="w-full pt-4">
@@ -133,13 +141,16 @@ const MainBanner = () => {
                                     <img
                                         className=""
                                         src="lockIconGrey.svg"
-                                        alt=""
+                                        alt="lock icon"
                                     />
                                     <p>Secure 256-bit SSL encryption</p>
                                 </div>
                             </div>
                             <div className="flex justify-center pt-3 pb-2">
-                                <img src="cards.svg" alt="" />
+                                <img
+                                    src="cards.svg"
+                                    alt="payment method logos"
+                                />
                             </div>
                         </div>
 
@@ -150,13 +161,16 @@ const MainBanner = () => {
                                 <img
                                     className=""
                                     src="lockIconGrey.svg"
-                                    alt=""
+                                    alt="lock icon"
                                 />
                                 <p>Secure 256-bit SSL encryption</p>
                             </div>
                             <span> | </span>
                             <div>
-                                <img src="cards.svg" alt="" />
+                                <img
+                                    src="cards.svg"
+                                    alt="payment method logos"
+                                />
                             </div>
                         </div>
 
@@ -168,7 +182,7 @@ const MainBanner = () => {
 
                 <div className="flex flex-row gap-x-4 sm:pb-7 sm:pt-6 lg:py-0">
                     <div className="sm:w-3/5 lg:w-1/2">
-                        <img src="emblem.svg" alt="" />
+                        <img src="emblem.svg" alt="certification emblem" />
                     </div>
                     <p className="text-[#4D5254] sm:text-[0.76rem] lg:text-xs xl:text-base lg:mr-5 leading-snug capsize">
                         If you are not completely thrilled with your Clarifion -

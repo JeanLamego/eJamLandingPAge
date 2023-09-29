@@ -3,7 +3,6 @@ import Footer from './Components/Footer';
 import Header from './Components/Header';
 import MainBanner from './Components/MainBanner';
 
-
 function App() {
     return (
         <div>
@@ -11,7 +10,7 @@ function App() {
                 <Header />
                 <div className=" lg:px-16 xl:px-32 bg-white">
                     <Banner />
-                    <MainBanner/>
+                    <MainBanner />
                 </div>
                 <Footer />
             </div>
